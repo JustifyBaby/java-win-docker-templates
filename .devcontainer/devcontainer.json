@@ -1,0 +1,12 @@
+{
+  "name": "Java 25 + Maven",
+  "dockerComposeFile": "../compose.yml",
+  "service": "java",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": ["vscjava.vscode-java-pack"]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  java:
+    image: maven:3.9-eclipse-temurin-25-noble
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+      - maven-cache:/root/.m2
+    command: sleep infinity
+
+volumes:
+  maven-cache:
